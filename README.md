@@ -4,6 +4,8 @@ A sample showing the most common way to expose COBOL logic as a REST API:
 **FastAPI handles HTTP / validation / JSON, and a GnuCOBOL program does the math.**
 Everything builds and runs inside Docker — no local COBOL compiler needed.
 
+![Loan calculator UI: monthly payment, totals and the repayment schedule](docs/screenshot.jpg)
+
 ```
 Browser / client
    │  JSON

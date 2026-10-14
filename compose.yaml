@@ -1,0 +1,13 @@
+services:
+  api:
+    build:
+      context: .
+      target: runtime
+    ports:
+      - "${API_PORT:-8090}:8000"
+
+  test:
+    build:
+      context: .
+      target: test
+    profiles: ["test"]
